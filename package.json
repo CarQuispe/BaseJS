@@ -1,11 +1,25 @@
 {
   "name": "basejs",
   "version": "1.0.0",
-  "description": "",
+  "description": "��#\u0000 \u0000B\u0000a\u0000s\u0000e\u0000J\u0000S\u0000\r\u0000 \u0000",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build":"parcel build --public-url./ index.html"
+    
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CarQuispe/BaseJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CarQuispe/BaseJS/issues"
+  },
+  "homepage": "https://github.com/CarQuispe/BaseJS#readme",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
 }
